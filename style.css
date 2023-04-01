@@ -12,12 +12,23 @@
 
 h3{
     float:left; 
-    padding-left: 40px;
+    padding-left: 50px;
 
 }
 
+h2{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
 .header{
-    height: 50px;
+    height: 60px;
+    box-shadow: 0 0 15px 10px rgb(252, 159, 236);
+}
+
+.header2{
+    height: 60px;
+    box-shadow: 0 0 15px 10px rgb(250, 200, 242);
 }
 
 a{
@@ -39,9 +50,16 @@ img{
 }
 
 .aboutMe{
-    padding-left: 20%;
+    padding-left: 14%;
+    margin-top: 50px;
     text-align: center;
-    width: 60%
+    width: 70%
+}
+
+.aboutMe2{
+    padding-left: 14%;
+    text-align: center;
+    width: 70%
 }
 
 .socials{
@@ -53,16 +71,9 @@ img{
     max-width: 19.7%;
     float:left;
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 
-.hej{
-
-    background-color: purple;
-    width: 200px;
-    height: 100px;
-    margin-left: 20%;
-    
-}
 
 .left{
     display: flex;
